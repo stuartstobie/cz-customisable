@@ -1,5 +1,7 @@
 # cz-customisable
 
+This is a shameless fork of https://github.com/leoforfree/cz-customizable but I wanted to fix the custom scope, however the original project does not appear to be maintained.
+
 The customisable Commitizen plugin (or standalone utility) to help achieve consistent commit messages such as [Conventional Commits](https://www.conventionalcommits.org/). Note that you can create any commit message pattern. You don't have to use the pattern from the Conventional Commits. For example, my team uses this pattern: `[minor] add new feature xyz`
 
 Suitable for large teams working with multiple projects with their own commit scopes. It allows you to **select** the pre-defined scopes or commit types. It works perfectly with https://github.com/semantic-release/semantic-release.
