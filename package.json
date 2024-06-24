@@ -1,11 +1,11 @@
 {
   "version": "0.0.0-development",
-  "name": "cz-customizable",
-  "description": "Commitizen customizable adapter following the conventional-changelog format.",
+  "name": "cz-customisable",
+  "description": "Commitizen customisable adapter following the conventional-changelog format.",
   "main": "index.js",
   "types": "index.d.ts",
   "bin": {
-    "cz-customizable": "./standalone.js",
+    "cz-customisable": "./standalone.js",
     "cz-cust": "./standalone.js"
   },
   "scripts": {
@@ -16,10 +16,10 @@
     "prettier": "prettier --single-quote --trailing-comma es5 --write '*.js' 'spec/**/*.js'",
     "commit": "npm run lint && npm run test && ./standalone.js"
   },
-  "homepage": "https://github.com/leoforfree/cz-customizable",
+  "homepage": "https://github.com/leoforfree/cz-customisable",
   "repository": {
     "type": "git",
-    "url": "https://github.com/leoforfree/cz-customizable.git"
+    "url": "https://github.com/leoforfree/cz-customisable.git"
   },
   "author": "Leonardo Correa <leonardoanalista@gmail.com>",
   "contributors": [
@@ -53,7 +53,7 @@
     "commitizen": {
       "path": "./index.js"
     },
-    "cz-customizable": {
+    "cz-customisable": {
       "config": "cz-config-EXAMPLE.js"
     },
     "ghooks": {
