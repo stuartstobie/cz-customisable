@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "name": "cz-customisable",
   "description": "Commitizen customisable adapter following the conventional-changelog format.",
   "main": "index.js",
